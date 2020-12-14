@@ -1,0 +1,29 @@
+@import "variables";
+@import "header";
+@import "content";
+
+* {
+  margin: 0;
+  padding: 0;
+  color: $color;
+  text-shadow: 0.3px 0.3px $color;
+}
+
+html {
+  height: 100vh;
+  font-family: "Source Serif Pro", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $bg-color;
+}
+
+body,
+#root,
+.App {
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
