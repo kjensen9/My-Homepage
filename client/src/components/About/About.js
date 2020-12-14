@@ -3,12 +3,12 @@ import MyPicture from "../../img/my-picture.jpg";
 
 const About = () => {
   return (
-    <div className="about">
+    <>
       <div className="title">
         <h2>Kyle Jensen - Programmer, Gamer, and all around swell guy</h2>
         <img height="150px" src={MyPicture} alt="Myself" />
       </div>
-      <div className="content">
+      <div className="content-body">
         <p>
           Hello there! I'm Kyle, a developer studying NodeJS and React to become
           the worlds greatest (or let's stick with good) web developer. I'll be
@@ -27,7 +27,7 @@ const About = () => {
           </a>
         </p>
       </div>
-    </div>
+    </>
   );
 };
 

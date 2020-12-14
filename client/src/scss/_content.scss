@@ -1,17 +1,15 @@
 .content {
-  margin: 10px;
+  margin: 10px auto;
+  max-width: 800px;
   text-align: center;
 
   .title {
     font-weight: bold;
   }
-  .content {
-    margin: 10px 0;
+
+  .content-body {
     p {
       margin: 5px 0;
     }
-
-    max-width: 800px;
-    margin: 0 auto;
   }
 }
